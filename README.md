@@ -38,6 +38,8 @@ firebase Functions <https://github.com/firebase/functions-samples>
     ng new cmr --service-worker --routing --style scss --skip-install
     cd cmr
     npm install
+    ng generate component privacypolicy -m app
+
     ng generate module core -m app
     ng generate service core/auth -m core
     ng generate service core/validation -m core

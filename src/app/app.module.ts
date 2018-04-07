@@ -7,10 +7,14 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { AppComponent } from './app.component';
 
 import { environment } from '../environments/environment';
+import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PrivacypolicyComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
